@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productdb
+    username: vinsguru
+    password: admin
+app:
+  write:
+    enabled: true
+
+# if dbase is not initialized username is used for dbase name
